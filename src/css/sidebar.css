@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+  }
+  :root {
+    --color-suooort-ua: #4f2ee8;
+    --color-suooort-ua-white: #ffffff;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .sidebar {
+    background: #FFFFFF;
+    max-width: 300px;
+    max-height: 1200px;
+  }
+  
+  .sidebar-categories-link:focus,
+  .sidebar-categories-link:hover {
+    color: #fff;
+  }
+  
+  .active-link-her {
+    border: 0;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #4f2ee8;
+    background-color: transparent;
+    transition: 0.3s;
+  }
+  
+  .sidebar {
+    top: 30px;
+    left: 0;
+    overflow-y: auto;
+    border-radius: 4px;
+    gap: 32px;
+  }
+  
+  .sidebar-categories {
+    margin-bottom: 500px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+  }
+  
+  .sidebar-categories-header a {
+    
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sidebar-categories-header svg {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .sidebar-categories-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .sidebar-categories-list {
+      gap: 32px;
+      margin: 0;
+    }
+  }
+  
+  .categories-logo {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  
+  .version {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  
+  .text-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-stuff {
+    text-align: left;
+  }
+  
+  .all-customers {
+    margin-bottom: 10px;
+  }
+  
+  .right-stuff {
+    text-align: right;
+  }
+  
+  .customer-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sidebar-categories-header {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .sidebar-categories-item {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #11111199;
+    width: 100%;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+  }
+  
+  .sidebar-categories-item:nth-child(4) {
+    background-color: #4f2ee8;
+    border-radius: 8px;
+  }
+  
+  .sidebar-categories-item:hover {
+    background-color: #4f2ee8;
+    border-radius: 8px;
+  }
+  
+  .sidebar-categories-item1 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #11111199;
+    padding: 5px 10px;
+  }
+  
+  .sidebar-categories-item1:hover {
+    background-color: #4f2ee8;
+    border-radius: 8px;
+  }
+  
+  .sidebar-categories-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #9197B3;
+    padding-right: 10px; 
+  }
+  
+  .sidebar-categories-link svg:first-child {
+    margin-right: 10px;
+  }
+  
+  .sidebar-categories-link svg:last-child {
+    margin-left: auto;
+  }
+  
+  .user-block {
+    bottom: 0;
+    left: 0;
+    width: 285px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-role {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .customer-block a {
+    color: #ffffff;
+  }
+  
+  .showing-data {
+    margin-left: 20px;
+  }
+  
